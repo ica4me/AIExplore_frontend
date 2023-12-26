@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDAB9">
+
+    <RelativeLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perbarui Informasi Profile"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/headerLayout"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/usernameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileImage"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="bilwahyu09"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <!-- Nama -->
+    <LinearLayout
+        android:id="@+id/nameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameText"
+        android:layout_marginTop="16dp"
+        android:paddingHorizontal="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="#FFFFFF"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <!-- Email -->
+    <LinearLayout
+        android:id="@+id/emailLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameLayout"
+        android:layout_marginTop="8dp"
+        android:paddingHorizontal="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="#FFFFFF"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <!-- Caption -->
+    <LinearLayout
+        android:id="@+id/captionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailLayout"
+        android:layout_marginTop="8dp"
+        android:paddingHorizontal="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caption Pengguna"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/captionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="8dp"
+            android:background="#FFFFFF"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <!-- Button Simpan -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/captionLayout"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Simpan"
+        android:background="#4285F4"
+        android:textColor="#FFFFFF"
+        android:padding="12dp" />
+
+</RelativeLayout>

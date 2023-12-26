@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AI Explore by w</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+        <string name="ai_explorer_description">AI Explorer adalah sebuah aplikasi yang akan membantu Anda mengetahui
+perkembangan terbaru di bidang kecerdasan buatan (AI).
+Aplikasi ini akan memberikan informasi tentang berbagai topik yang
+berkaitan dengan AI, seperti definisi, sejarah, jenis, aplikasi, tantangan, dan
+masa depan AI. Anda juga dapat mengeksplorasi berbagai contoh AI
+yang ada di dunia nyata, seperti pengenalan wajah, pengenalan suara,
+penerjemahan bahasa, dan lain-lain.
+
+AI Explorer adalah aplikasi yang cocok untuk siapa saja yang ingin belajar
+tentang AI, baik itu pelajar, mahasiswa, profesional, atau penggemar teknologi.
+Aplikasi ini akan memberikan Anda wawasan yang luas dan mendalam tentang AI,
+serta menginspirasi Anda untuk terlibat lebih aktif dalam bidang ini.
+Dengan AI Explorer, Anda akan menjadi lebih cerdas, kreatif, dan
+siap menghadapi tantangan masa depan.</string>
+
+    <string name="ek_img_content">ExportKit Image</string>
+	<string name="ask_any_question___string">Ask any question ?</string>
+	<string name="hari_apa_sekarang___string">hari apa sekarang ?</string>
+	<string name="hari_ini_adalah_hari_rabu__cuaca_terlihat_cerah__dan_suasana_sangat_menyenangkan__string">Hari ini adalah hari Rabu. Cuaca terlihat cerah, dan suasana sangat menyenangkan.</string>
+	<string name="tanya_apapun_ke_najm_ai_string">Tanya apapun ke najm AI</string>
+
+</resources>
